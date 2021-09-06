@@ -11,7 +11,7 @@ Pois oque é melhor que ter a Poppy com você em todos seus arquivos JS?
 </p>
 
  <img src="https://img.shields.io/static/v1?label=npm&message=1.0.5&color=red" width="100px;" alt=""/>
-()
+
 
 <h4 align="center"> 
 	🚧  mainpoppy v1.0.4 🔨 Em construção...  🚧
