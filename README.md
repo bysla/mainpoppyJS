@@ -14,7 +14,7 @@ Pois oque é melhor que ter a Poppy com você em todos seus arquivos JS?
 
 
 <h4 align="center"> 
-	🚧  mainpoppy v1.0.4 🔨 Em construção...  🚧
+	🚧  mainpoppy v1.0.6 🔨 Em construção...  🚧
 </h4>
 
 
@@ -22,9 +22,10 @@ Pois oque é melhor que ter a Poppy com você em todos seus arquivos JS?
 
 - [x] Comentar em todos os arquivos .js uma imagem aleatoria da Poppy
 - [ ] Comentar em todos os arquivos uma imagem aleatoria da Poppy
-- [ ] Comentar em um arquivo .js uma imagem aleatoria da Poppy
-- [ ] Comentar em um arquivo uma imagem aleatoria da Poppy
-- [ ] Adicionar arquivos para a lista de não alteração
+- [x] Comentar em um arquivo .js uma imagem aleatoria da Poppy
+- [x] Comentar em um arquivo uma imagem aleatoria da Poppy
+- [x] Adicionar arquivos para a lista de não alteração
+- [x] Resetar a lista de não alteração
 
 
 ### Pré-requisitos
@@ -50,6 +51,27 @@ $ node index.js
 
 # Prontinho, divirta-se
 ```
+
+
+### 🎲 Comandos
+
+```bash
+
+# Comentar em todos os arquivos .js uma imagem aleatoria da Poppy
+$ poppy.martelo()
+
+# Comentar em um arquivo uma imagem aleatoria da Poppy
+$ poppy.martelinho(arquivo)
+
+# Adicionar arquivos para a lista de não alteração
+$ poppy.escudo(arquivo)
+
+# Resetar a lista de não alteração
+$ poppy.reset()
+
+# Prontinho, divirta-se
+```
+
 
 ### 🛠 Tecnologias
 
