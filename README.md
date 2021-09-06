@@ -9,8 +9,9 @@ Bem vindo ao mainpoppyJS!
 O super novo pacote indispensavel para seu projeto.
 Pois oque é melhor que ter a Poppy com você em todos seus arquivos JS?
 </p>
-![Badge](https://img.shields.io/static/v1?label=npm&message=1.0.4&color=$ff55ff&)
-(https://img.shields.io/static/v1?label=npm&message=1.0.5&color=red)
+
+ <img src="https://img.shields.io/static/v1?label=npm&message=1.0.5&color=red" width="100px;" alt=""/>
+()
 
 <h4 align="center"> 
 	🚧  mainpoppy v1.0.4 🔨 Em construção...  🚧
