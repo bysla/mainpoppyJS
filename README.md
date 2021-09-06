@@ -9,7 +9,7 @@ Bem vindo ao mainpoppyJS!
 O super novo pacote indispensavel para seu projeto.
 Pois oque é melhor que ter a Poppy com você em todos seus arquivos JS?
 </p>
-![Badge](https://img.shields.io/static/v1?label=npm&message=1.0.4&color=%3CCOLOR%3E&style=%3CSTYLE%3E&logo=%3CLOGO%3E)
+![Badge](https://img.shields.io/static/v1?label=npm&message=1.0.4&color=$ff55ff&)
 
 <h4 align="center"> 
 	🚧  mainpoppy v1.0.4 🔨 Em construção...  🚧
@@ -68,6 +68,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 Feito com ❤️ por Luís Felipe Colósimo 👋🏽 Entre em contato!
 
-[![Github Badge](https://img.shields.io/badge/-@tgmarinho-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=github&logoColor=white&link=https://github.com/bysla)](https://github.com/bysla) 
+[![Github Badge](https://img.shields.io/badge/-bysla-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=github&logoColor=white&link=https://github.com/bysla)](https://github.com/bysla) 
 [![Gmail Badge](https://img.shields.io/badge/-luisfelipecolosimo@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:luisfelipecolosimoo@gmail.com)](mailto:luisfelipecolosimo@gmail.com)
 
