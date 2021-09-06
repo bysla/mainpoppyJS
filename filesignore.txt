@@ -1,1 +1,14 @@
-node_module,filesignore.txt,.jpg,.jpeg,.png,package.json,listar.js,imgs.js,package-lock.json
+let file = [
+    "node_module",
+    "filesignore.txt",
+    "filesignore.js",
+    ".jpg",
+    ".jpeg",
+    ".png",
+    "package.json",
+    "listar.js",
+    "imgs.js",
+    "package-lock.json"
+]
+
+module.exports = { file };
