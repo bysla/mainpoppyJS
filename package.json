@@ -1,0 +1,42 @@
+{
+  "_from": "mainpoppy",
+  "_id": "mainpoppy@1.0.3",
+  "_inBundle": false,
+  "_integrity": "sha512-mE+wNcaLZzlMjpissLBZ8SFIJQ+okJDXbn4pzF+Dajp7PLIQgPBRKgcXWqcWekpq4w51qZuODSqSg2w9K/XM0A==",
+  "_location": "/mainpoppy",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "mainpoppy",
+    "name": "mainpoppy",
+    "escapedName": "mainpoppy",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/mainpoppy/-/mainpoppy-1.0.3.tgz",
+  "_shasum": "c24c5b33f95cb8bd7c045761d8268023e2cc69b0",
+  "_spec": "mainpoppy",
+  "_where": "/home/maipe/Documentos/development/teste",
+  "author": {
+    "name": "Luis Felipe Colosimo"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "glob": "^7.1.7"
+  },
+  "deprecated": false,
+  "description": "MARTELO MARTELAO",
+  "license": "ISC",
+  "main": "mainpoppy.js",
+  "name": "mainpoppy",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.3"
+}

@@ -1,0 +1,1 @@
+node_module,filesignore.txt,.jpg,.jpeg,.png,package.json,listar.js,imgs.js,package-lock.json
