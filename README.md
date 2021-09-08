@@ -91,18 +91,18 @@ $ let imagem = poppy.filiacaopoppy();
 #Comentar em um arquivo uma imagem da Poppy( recomendado usar com a função 7 ou 8 dessa lista)
 $ poppy.martelinhoteleguiado(arquivo, imagem)#função padrão
 	#recomendado:
-$ 	poppy.poppyzinha().then((data) => {
-$    poppy.martelinhoteleguiado(arquivo, data)
-$ })
+$ poppy.poppyzinha().then((data) => {
+	poppy.martelinhoteleguiado(arquivo, data)
+ })
 	#ou
 $ poppy.filiacaopoppy().then((data) => {
-$     console.log(data.length)
-$     let teste = "";
-$     data.forEach((ele) => {
-$         teste += ele + "\n"
-$     })
-$     poppy.martelinhoteleguiado(arquivo, teste)
-$ })
+    console.log(data.length)
+    let teste = "";
+    data.forEach((ele) => {
+        teste += ele + "\n"
+    })
+    poppy.martelinhoteleguiado(arquivo, teste)
+})
 
 # Comentar em um arquivo uma imagem da Poppy escolhida atravéz da posição(caso passe um valor fora, a imagem sera escolhida de forma aleatoria)
 $ poppy.martelinhodirecional(arquivo, posição)
