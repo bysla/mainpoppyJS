@@ -14,7 +14,7 @@ Pois oque é melhor que ter a Poppy com você em todos seus arquivos JS?
 
 
 <h4 align="center"> 
-	🚧  mainpoppy v1.0.6 🔨 Em construção...  🚧
+	🚧  mainpoppy v1.1.0 🔨 Em construção...  🚧
 </h4>
 
 
@@ -89,23 +89,23 @@ $ let imagem = poppy.poppyzinha();
 $ let imagem = poppy.filiacaopoppy();
 
 #Comentar em um arquivo uma imagem da Poppy( recomendado usar com a função 7 ou 8 dessa lista)
-$ poppy.martelinhoteleguiado(arquivo, imagem)#função padrão
+$ poppy.martelinhoteleguiado(arquivo, imagem);
 #recomendado:
 $ poppy.poppyzinha().then((data) => {
-	poppy.martelinhoteleguiado(arquivo, data)
- })
+	poppy.martelinhoteleguiado(arquivo, data);
+ });
 #ou:
 $ poppy.filiacaopoppy().then((data) => {
     console.log(data.length)
     let teste = "";
     data.forEach((ele) => {
         teste += ele + "\n"
-    })
-    poppy.martelinhoteleguiado(arquivo, teste)
-})
+    });
+    poppy.martelinhoteleguiado(arquivo, teste);
+});
 
 # Comentar em um arquivo uma imagem da Poppy escolhida atravéz da posição(caso passe um valor fora, a imagem sera escolhida de forma aleatoria)
-$ poppy.martelinhodirecional(arquivo, posição)
+$ poppy.martelinhodirecional(arquivo, posição);
 
 # Prontinho, divirta-se
 ```
