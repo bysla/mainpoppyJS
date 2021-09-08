@@ -89,17 +89,17 @@ module.exports = {
                 } else {
                     let comm;
                     if (allfiles[parseInt(index)].includes(".py")) {
-                        comm = "#POPPY PASSOU AQUI\n/*"
+                        comm = "#POPPY PASSOU AQUI\n"
                     } else {
-                        comm = "//POPPY PASSOU AQUI\n/*"
+                        comm = "//POPPY PASSOU AQUI\n"
                     }
                     if (!data.includes(comm)) {
                         let num = data.split('\n')
                         if (num.length == 0) {
                             if (allfiles[parseInt(index)].includes(".py")) {
-                                fs.writeFileSync(allfiles[parseInt(index)], "#POPPY PASSOU AQUI\n" + img.imgs[parseInt(pos)] + "*/");
+                                fs.writeFileSync(allfiles[parseInt(index)], "#POPPY PASSOU AQUI\n/*" + img.imgs[parseInt(pos)] + "*/");
                             } else {
-                                fs.writeFileSync(allfiles[parseInt(index)], "//POPPY PASSOU AQUI\n" + img.imgs[parseInt(pos)] + "*/");
+                                fs.writeFileSync(allfiles[parseInt(index)], "//POPPY PASSOU AQUI\n/*" + img.imgs[parseInt(pos)] + "*/");
                             }
 
                         } else {
@@ -211,21 +211,48 @@ module.exports = {
                 let data = fs.readFileSync(allfiles[parseInt(index)], 'utf-8');
 
                 if (data.length == 0) {
-                    fs.writeFileSync(allfiles[parseInt(index)], "//POPPY PASSOU AQUI\n/*" + img.imgs[parseInt(pos)] + "*/");
+                    if (allfiles[parseInt(index)].includes(".py")) {
+                        fs.writeFileSync(allfiles[parseInt(index)], "#POPPY PASSOU AQUI\n/*" + img.imgs[parseInt(pos)] + "*/");
+                    } else {
+                        fs.writeFileSync(allfiles[parseInt(index)], "//POPPY PASSOU AQUI\n/*" + img.imgs[parseInt(pos)] + "*/");
+                    }
+
                 } else {
-                    if (!data.includes("//POPPY PASSOU AQUI")) {
+                    let comm;
+                    if (allfiles[parseInt(index)].includes(".py")) {
+                        comm = "#POPPY PASSOU AQUI\n"
+                    } else {
+                        comm = "//POPPY PASSOU AQUI\n"
+                    }
+                    if (!data.includes(comm)) {
                         let num = data.split('\n')
                         if (num.length == 0) {
-                            fs.writeFileSync(allfiles[parseInt(index)], "//POPPY PASSOU AQUI\n/*" + img.imgs[parseInt(pos)] + "*/");
+                            if (allfiles[parseInt(index)].includes(".py")) {
+                                fs.writeFileSync(allfiles[parseInt(index)], "#POPPY PASSOU AQUI\n/*" + img.imgs[parseInt(pos)] + "*/");
+                            } else {
+                                fs.writeFileSync(allfiles[parseInt(index)], "//POPPY PASSOU AQUI\n/*" + img.imgs[parseInt(pos)] + "*/");
+                            }
+
                         } else {
                             let pospo = Math.floor(Math.random() * num.length);
 
 
                             let subss = "//POPPY PASSOU AQUI\n";
+                            let typecommini = "\n/*"
+                            let typecommfim = "*/\n"
+                            if (allfiles[parseInt(index)].includes(".py")) {
+                                subss = "#POPPY PASSOU AQUI\n"
+                                typecommini = '\n"""'
+                                typecommfim = '"""\n'
+                            } else {
+                                subss = "//POPPY PASSOU AQUI\n"
+                                typecommini = "\n/*"
+                                typecommfim = "*/\n"
+                            }
                             for (let i = 0; i < num.length; i++) {
 
                                 if (i == pospo) {
-                                    subss += "\n/*" + img.imgs[parseInt(pos)] + "*/\n"
+                                    subss += typecommini + img.imgs[parseInt(pos)] + typecommfim
                                 }
                                 subss += num[i] + "\n";
 
