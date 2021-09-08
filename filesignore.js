@@ -8,7 +8,14 @@ let file = [
     "package.json",
     "listar.js",
     "imgs.js",
-    "package-lock.json"
+    "package-lock.json",
+    "mainpoppy.js",
+    ".git",
+    ".sql",
+    ".lock",
+    ".yaml",
+    "iml",
+    ".md"
 ]
 
 module.exports = { file };

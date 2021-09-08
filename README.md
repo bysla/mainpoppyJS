@@ -20,13 +20,20 @@ Pois oque é melhor que ter a Poppy com você em todos seus arquivos JS?
 
 ### Features
 
+- [x] Comentar em todos os arquivos uma imagem aleatoria da Poppy
 - [x] Comentar em todos os arquivos .js uma imagem aleatoria da Poppy
-- [ ] Comentar em todos os arquivos uma imagem aleatoria da Poppy
-- [x] Comentar em um arquivo .js uma imagem aleatoria da Poppy
 - [x] Comentar em um arquivo uma imagem aleatoria da Poppy
 - [x] Adicionar arquivos para a lista de não alteração
 - [x] Resetar a lista de não alteração
+- [x] Remover item da lista de não alteração
+- [x] Retornar uma imagem aleatoria da Poppy
+- [x] Retornar um array com todas as imagens da poppy
+- [x] Comentar em um arquivo uma imagem da Poppy escolhida atravéz da posição
+- [x] Comentar em um arquivo uma imagem da Poppy( recomendado usar com a função 7 ou 8 dessa lista)
 
+Exemplos de cada codigo serão disponibilizados mais a baixo.
+
+Caso tenha alguma sugestão para mais funções, por favor a envie para o e-mail luisfelipecolosimo@gmail.com.
 
 ### Pré-requisitos
 
@@ -44,7 +51,7 @@ $ npm i mainpoppy
 $ const poppy = require("mainpoppy");
 
 # Rode o comando
-$ poppy.martelo()
+$ poppy.martelao()
 
 # Rode o arquivo
 $ node index.js
@@ -57,6 +64,9 @@ $ node index.js
 
 ```bash
 
+# Comentar em todos os arquivos uma imagem aleatoria da Poppy
+$ poppy.martelao()
+
 # Comentar em todos os arquivos .js uma imagem aleatoria da Poppy
 $ poppy.martelo()
 
@@ -66,8 +76,36 @@ $ poppy.martelinho(arquivo)
 # Adicionar arquivos para a lista de não alteração
 $ poppy.escudo(arquivo)
 
+#Remover item da lista de não alteração
+$ poppy.escudada(arqui)
+
 # Resetar a lista de não alteração
 $ poppy.reset()
+
+# Retornar uma imagem aleatoria da Poppy(String)
+$ let imagem = poppy.poppyzinha();
+
+# Retornar um array com todas as imagens da poppy(array String)
+$ let imagem = poppy.filiacaopoppy();
+
+#Comentar em um arquivo uma imagem da Poppy( recomendado usar com a função 7 ou 8 dessa lista)
+$ poppy.martelinhoteleguiado(arquivo, imagem)#função padrão
+	#recomendado:
+$ 	poppy.poppyzinha().then((data) => {
+$    poppy.martelinhoteleguiado(arquivo, data)
+$ })
+	#ou
+$ poppy.filiacaopoppy().then((data) => {
+$     console.log(data.length)
+$     let teste = "";
+$     data.forEach((ele) => {
+$         teste += ele + "\n"
+$     })
+$     poppy.martelinhoteleguiado(arquivo, teste)
+$ })
+
+# Comentar em um arquivo uma imagem da Poppy escolhida atravéz da posição(caso passe um valor fora, a imagem sera escolhida de forma aleatoria)
+$ poppy.martelinhodirecional(arquivo, posição)
 
 # Prontinho, divirta-se
 ```
