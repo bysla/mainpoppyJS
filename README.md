@@ -10,7 +10,7 @@ O super novo pacote indispensavel para seu projeto.
 Pois oque é melhor que ter a Poppy com você em todos seus arquivos JS?
 </p>
 
- <img src="https://img.shields.io/static/v1?label=npm&message=1.0.5&color=red" width="100px;" alt=""/>
+ <img src="https://img.shields.io/static/v1?label=npm&message=6.14.14&color=red" width="100px;" alt=""/>
 
 
 <h4 align="center"> 
@@ -90,11 +90,11 @@ $ let imagem = poppy.filiacaopoppy();
 
 #Comentar em um arquivo uma imagem da Poppy( recomendado usar com a função 7 ou 8 dessa lista)
 $ poppy.martelinhoteleguiado(arquivo, imagem)#função padrão
-	#recomendado:
+#recomendado:
 $ poppy.poppyzinha().then((data) => {
 	poppy.martelinhoteleguiado(arquivo, data)
  })
-	#ou
+#ou:
 $ poppy.filiacaopoppy().then((data) => {
     console.log(data.length)
     let teste = "";
@@ -125,7 +125,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <a href="https://luisfelipecolosimo.com.br">
  <img style="border-radius: 50%;" src="https://luisfelipecolosimo.com.br/assets/images/profile.png" width="100px;" alt=""/>
  <br />
- <sub><b>Luís Felipe Colósimo</b></sub></a> <a href="https://luisfelipecolosimo.com.br" title="Rocketseat">🚀</a>
+ <sub><b>Luís Felipe Colósimo</b></sub></a> <a href="https://luisfelipecolosimo.com.br" title="portifolio">🚀</a>
 
 
 Feito com ❤️ por Luís Felipe Colósimo 👋🏽 Entre em contato!
