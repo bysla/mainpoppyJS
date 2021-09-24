@@ -130,6 +130,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 Feito com ❤️ por Luís Felipe Colósimo 👋🏽 Entre em contato!
 
-[![Github Badge](https://img.shields.io/badge/-bysla-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=github&logoColor=white&link=https://github.com/bysla)](https://github.com/bysla) 
+[![Github Badge](https://img.shields.io/badge/-luisfelipecolosimo-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=github&logoColor=white&link=https://github.com/luisfelipecolosimo)](https://github.com/luisfelipecolosimo) 
 [![Gmail Badge](https://img.shields.io/badge/-luisfelipecolosimo@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:luisfelipecolosimoo@gmail.com)](mailto:luisfelipecolosimo@gmail.com)
 
